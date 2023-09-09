@@ -1,0 +1,42 @@
+.navbar {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.logo {
+
+
+display: flex;
+
+height: 5px;
+  width: 5px; 
+  margin-bottom: 98px;
+	
+
+}
+
+.list {
+	list-style-type: none;
+}
+
+.list_item a {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 1rem;
+}
+
+.list-item a:hover {
+	color: rgb(187, 185, 185);
+	border-bottom: 2px solid rgb(187, 185, 185);
+}

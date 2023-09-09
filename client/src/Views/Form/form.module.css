@@ -1,0 +1,146 @@
+.con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../../image/Recipe.png)
+  no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.form_main_container {
+ 
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 75px;
+	background-color: white;
+	min-height: 100vh;
+	user-select: none;
+}
+
+.form_name {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+	color: #000000;
+}
+
+.form_container {
+  display: flex;
+}
+
+
+.form_left_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+}
+
+.for_-right_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+}
+
+
+
+
+
+
+
+.for_-left_container input {
+  padding: 0 0.5rem;
+  height: 6vh;
+  width: 20vw;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+
+.form_left_container textarea {
+  padding: 1rem 0.5rem;
+  height: 8vh;
+  width: 20vw;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.form_buttons {
+  display: flex;
+  justify-content: center;
+  top: 2rem;
+}
+
+.form_diets {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+  font-size: 20px;
+}
+
+.form_diets label {
+  margin: 0.3rem 0;
+}
+
+.btn_create {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+  font-weight: 500;
+  background-color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  width: 12vw;
+  height: 7vh;
+  margin-left: 5rem;
+}
+
+.btn_create:hover {
+  background-color: rgb(22, 22, 22);
+    color: rgb(185, 185, 185);
+}
+
+.btn_reset {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+  font-weight: 500;
+  background-color: #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.2em;
+  width: 12vw;
+  height: 7vh;
+}
+
+.btn_reset:hover {
+  background-color: #ff2f2f;
+    color: rgb(185, 185, 185);
+}
+
+p.danger {
+  font-family: 'Poppins';
+  color: #f55c47;
+  text-align: center;
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+p.pass {
+  display:  none;
+}
+
+
+input.danger {
+  border: 2px solid #f55c47;
+}
+
+textarea.danger {
+  border: 2px solid #f55c47;
+}

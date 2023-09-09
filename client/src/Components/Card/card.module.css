@@ -1,0 +1,64 @@
+
+.card{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    height: 55vh;
+    margin: 1rem 0;
+    border-radius: 5px; 
+    box-shadow: -9px 13px 13px 3px rgba(13, 81, 108, 0.94);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 250ms ease;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    border: none;
+}
+
+.img_recipe img{
+    border-radius: 15px;
+	width: 25vw;
+    height: 35vh;
+}
+
+.card_info{
+    border-radius: 15px;
+	width: 25vw;
+    height: 20vh;
+    background-color: #242121;
+}
+
+.card_info a{
+	color: white;
+    text-decoration: none;
+}
+
+.card_name{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 4px;
+    text-align: left ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(58, 132, 150);
+
+}
+.card_diets{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 4px;
+    text-align: left ;
+    text-decoration: none;
+}
+
+
+
+
+
+
